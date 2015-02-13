@@ -3,10 +3,10 @@ import struct
 import sys
 
 """
-This script filters the BD ALTI from IGN (ESRI grid) to keep only the relevant
-files for the specified area.
+This script filters the SRTM altimetry dataset from NASA to keep only the
+relevant files for the specified area.
 
-Input is an Arc/Info E00 (ASCII) file from the IGN BD ALTI database.
+Input is an HGT file from the SRTM dataset.
 Output is an ASCII XYZ gridded file, sorted by increasing X and decreasing Y.
 """
 
